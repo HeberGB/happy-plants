@@ -1,0 +1,31 @@
+{
+  "name": "happy-plants",
+  "version": "0.1.0",
+  "description": "This a project to have happy plants, so we'll use TI Launchpad with sensors and Node.js to do this :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeberGB/happy-plants.git"
+  },
+  "keywords": [
+    "Node.js",
+    "TI",
+    "Launchpad"
+  ],
+  "author": "@HeberGB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeberGB/happy-plants/issues"
+  },
+  "homepage": "https://github.com/HeberGB/happy-plants#readme",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "express": "^4.16.2",
+    "materialize-css": "^0.100.2",
+    "serialport": "^6.0.4",
+    "socket.io": "^2.0.4"
+  }
+}

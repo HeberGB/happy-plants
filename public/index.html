@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="materialize.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+  <title>Happy Plants</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="index.html" class="brand-logo left logo">Happy Plants.</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li>
+            <a href="#card-ntc">
+              NTC
+              <span>(Sensor de Temperatura)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#card-lm555">
+              LM555
+              <span>(Como detector de luz)</span>
+            </a>
+          </li>
+          <li>
+            <a href="#card-yl69">
+              YL69
+              <span>(Sensor de humedad)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="row">
+    <div class="col s10 offset-s1">
+      <div class="col s2">
+        <img src="assets/escom.png" alt="escom logo">
+      </div>
+      <div class="col s8 center">
+        <h5 id="cambio">INSTITUTO POLITÉCNICO NACIONAL</h5>
+        <h5>ESCUELA SUPERIOR DE CÓMPUTO</h5>
+        <p>
+          Instrumentación
+          <br> Profesor Juan Carlos Martínez Díaz
+          <br> Grupo 3CM4
+          <br> Integrantes:
+          <br> Espinosa de los Monteros Lechuga Jaime Daniel
+          <br> Grajeda Barranco Jesús Heber
+          <br>
+        </p>
+      </div>
+      <div class="col s2">
+        <img src="assets/ipn.png" alt="ipn logo">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s8 offset-s2 center-align" id="card-ntc">
+      <h4>NTC</h4>
+      <h5>Sensor de temperatura</h5>
+      <div class="col s6">
+        <canvas id="NTCgraph"></canvas>
+      </div>
+      <div id="NTCmetric" class="col s6">
+
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s8 offset-s2 center-align" id="card-lm555">
+      <h4>LM555</h4>
+      <h5>Detector de luz</h5>
+      <div class="col s6">
+        <canvas id="LM555graph"></canvas>
+      </div>
+      <div id="LM555metric" class="col s6">
+
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s8 offset-s2 center-align" id="card-yl69">
+      <h4>YL-69</h4>
+      <h5>Sensor de humedad</h5>
+      <div class="col s6">
+        <canvas id="YL69graph"></canvas>
+      </div>
+      <div id="YL69metric" class="col s6">
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

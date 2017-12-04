@@ -1,0 +1,54 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav .brand-logo, nav ul a, footer{
+  color: #222926;
+}
+
+nav ul a span {
+  font-size: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  margin-left: 20px;
+  font-family: 'Dosis', sans-serif;  
+  font-weight: bold;
+}
+
+nav, footer {
+  background-color: #b5ef94 !important;
+}
+
+#card-ntc {
+  background-color: #ffce9b;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 2px 2px black;
+  padding: 30px;
+}
+
+#card-lm555 {
+  background-color: #ffffba;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 2px 2px black;
+  padding: 30px;
+}
+
+#card-yl69 {
+  background-color: #98cbec;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 2px 2px black;
+  padding: 30px;
+}
+
